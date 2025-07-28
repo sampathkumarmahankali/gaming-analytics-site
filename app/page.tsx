@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { BarChart3, TrendingUp, Users, Zap, Shield, Target, Play, ArrowRight, Star, CheckCircle } from "lucide-react"
 import Layout from "@/components/layout"
-
+//@ts-ignore
 export default function HomePage() {
   const [isDemoPlaying, setIsDemoPlaying] = useState(false)
   const [stats, setStats] = useState({
