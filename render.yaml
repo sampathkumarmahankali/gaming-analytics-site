@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: gaming-analytics-site
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./out
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0 
