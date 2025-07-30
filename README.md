@@ -26,7 +26,7 @@ This project is configured for static site deployment on Render.
 3. Configure the following settings:
    - **Build Command**: `npm run build`
    - **Publish Directory**: `out`
-   - **Node.js Version**: 18.17.0
+   - **Node.js Version**: 20.11.0
 
 ### Manual Deployment
 
